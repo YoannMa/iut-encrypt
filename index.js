@@ -1,6 +1,7 @@
 'use strict';
 
 const crypto = require('crypto');
+const uuid = require('uuid');
 
 let hash = (string, hash) => {
     hash.update(string);
@@ -16,5 +17,7 @@ module.exports = {
     },
     hashMD5 : (string) => {
         return hash(string, crypto.createHash('md5'));
-    }
+    },
+    uuid : uuid,
+    uuidV1 : uuid.v1
 };
