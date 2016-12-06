@@ -1,0 +1,22 @@
+{
+  "name": "@yoannma/iut-encrypt",
+  "version": "0.1.0",
+  "description": "Just a npm package for school, not really usefull",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoannMa/iut-encrypt.git"
+  },
+  "author": "YoannMa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoannMa/iut-encrypt/issues"
+  },
+  "homepage": "https://github.com/YoannMa/iut-encrypt#readme",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  }
+}
